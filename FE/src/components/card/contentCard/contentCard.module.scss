@@ -1,0 +1,22 @@
+.content_card{
+  width: calc((100% / 1) - var(--mr-left));
+  margin-left: var(--mr-left);
+}
+
+@media (min-width: 768px) {
+  .content_card{
+    width: calc((100% / 2) - var(--mr-left));
+  }
+}
+
+@media (min-width: 1024px) {
+  .content_card{
+    width: calc((100% / 3) - var(--mr-left));
+  }
+}
+
+@media (min-width: 1280px) {
+  .content_card{
+    width: calc((100% / 4) - var(--mr-left));
+  }
+}

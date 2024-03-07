@@ -1,0 +1,27 @@
+.statistics_card_item{
+  width: calc((100% / 1) - var(--ml));
+  margin-left: var(--ml);
+
+  .chart{
+    svg{
+      circle {
+        stroke-width: 8;
+        stroke: #000;
+        transform: translate(5px, 5px);
+        stroke-dasharray: 220;
+        stroke-dashoffset: 220;
+        stroke-linecap: round;
+        
+      }
+
+      circle:nth-child(1){
+        stroke-dashoffset: 0;
+        stroke: #f3f3f3;
+      }
+      circle:nth-child(2){
+        stroke-dashoffset: calc(220 - (220 * var(--completion_schedule)) / 100);
+        stroke: var(--color);
+      }
+    }
+  }
+}

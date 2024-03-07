@@ -1,0 +1,10 @@
+.breadcrumb{
+  
+  .pages{
+    span{
+      &:not(:last-child){
+        color: #525252c7;
+      }
+    }
+  }
+}

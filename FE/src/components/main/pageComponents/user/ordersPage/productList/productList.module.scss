@@ -1,0 +1,9 @@
+.product_list{
+  & > li:not(:last-child) {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+  }
+  & > li:not(:first-child) {
+    padding-top: 10px;
+  }
+}

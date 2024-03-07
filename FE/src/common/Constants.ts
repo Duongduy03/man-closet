@@ -1,0 +1,20 @@
+
+export const Messages = {
+    ADD_SUCCESS: 'Thêm thành công ',
+    ADD_NOT_SUCCESS: 'Add failed',
+    UPDATE_SUCCESS: 'Update successfully',
+    UPDATE_NOT_SUCCESS: 'Update failed',
+    DELETE_SUCCESS: 'Delete successfully',
+    DELETE_NOT_SUCCESS: 'Delete failed',
+    REJECT_SUCCESS: 'Từ chối thành công',
+    APPROVE_SUCCESS: 'Phê duyệt thành công',
+    RESTORE_SUCCESS: 'Restore successfully',
+    CONFIRM_DELETE: 'Do you really want to delete?',
+    EMPTY_RESULTS: 'Chưa có thông tin',
+    DEFAULT_MESSAGE_REQUIRE: 'Trường bắt buộc nhập',
+    DEFAULT_MESSAGE_PHONE_NUMBER: 'Số điện thoại phải có 10 - 11 chữ số',
+    DEFAULT_MESSAGE_EMAIL: 'Sai định dạng email',
+    DEFAULT_MESSAGE_CURRENCY: 'Sai định dạng tiền',
+    DEFAULT_MESSAGE_REQUIRE_SAVE: 'Cần nhập các trường bắt buộc nhập',
+    DEFAULT_MESSAGE_PASSWORD: 'Mật khẩu phải chứa ít nhất 6 kí tự',
+};

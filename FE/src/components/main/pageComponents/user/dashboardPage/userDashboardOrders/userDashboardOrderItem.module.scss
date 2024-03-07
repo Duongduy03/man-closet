@@ -1,0 +1,19 @@
+.user_dashboard_order_item{
+  width: calc((100% / 1) - var(--ml));
+  margin-left: var(--ml);
+  flex: 1;
+}
+
+@media (min-width:768px) {
+  .user_dashboard_order_item{
+    width: calc((100% / 2) - var(--ml));
+    margin-left: var(--ml);
+  }
+}
+
+@media (min-width:1024px) {
+  .user_dashboard_order_item{
+    width: calc((100% / 4) - var(--ml));
+    margin-left: var(--ml);
+  }
+}

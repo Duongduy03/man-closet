@@ -1,0 +1,12 @@
+.atc_modal.close{
+    opacity: 0;
+    transform: translateX(200%);
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .atc_modal.open{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all ease-in-out 0.3s;
+  }
+  

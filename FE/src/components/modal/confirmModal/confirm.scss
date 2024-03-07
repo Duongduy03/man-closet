@@ -1,0 +1,10 @@
+.modal {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  .modal .active {
+    opacity: 1;
+    transform: translateY(0);
+  }

@@ -1,0 +1,24 @@
+.mb_menu.close{
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all ease-in-out 0.3s;
+}
+
+.mb_menu.open{
+  opacity: 1;
+  transform: translateX(0);
+  transition: all ease-in-out 0.3s;
+}
+
+@media (min-width:768px) {
+  .mb_menu.close{
+    transform: translateX(-100%);
+  }
+  
+}
+@media (min-width:1024px) {
+  .mb_menu.close{
+    transform: translateX(-100%);
+  }
+  
+}

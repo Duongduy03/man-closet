@@ -1,0 +1,14 @@
+.product_card{
+  width: calc((100% / 1) - var(--ml));
+  margin-left: var(--ml);
+
+  display: flex;
+  flex-direction: column;
+  .name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}
